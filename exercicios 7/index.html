@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Criptografando</title>
+</head>
+<body>
+<header>
+    <h1>ENIGNA</h1>
+</header>
+<main>
+    <h1>Criptografando</h1>
+    <p>Vamo usar esse programinha para codificar o que foi inserido na caixa abaixo.<br>
+    Voce pode escolher entre a <b>Cifra de Cesar</b> que é uma das mais simples formas de codificação<br>
+    e que foi utilizado por Julio Cesar, no Império Romano.<br>
+    Se preferir, nós podemos te dar o resultado em
+    <b>Base 64</b> base essa que é uma forma de critografar dados que é utilizado inclusive na   URL do seu navagador<br>
+    Escolha qual será a sua codificação<br><br>
+</p>
+</main>
+<select class="titulo">Por favor selecone o metodo de Criptografia
+<section id="metodo" class="metodo">
+    <option value="selecione"> Selecione o que voce quer</option>
+    <option value="cifra">Cifra de Cesar</option>
+    <option value="base64">Base 64</option>
+</select><br><br>
+<input type="radio" id="criptografar" name="criptografar">
+<label for="criptografar">criptografar</label>
+<input type="radio" id="decriptografar" name="decriptografar">
+<label for="decriptografar">Decriptografar</label>
+<div class="oculta" id="ocultar"><br>
+    <input type="number" id="chave" name="chave">
+</div>
+</section>
+<div class="mensagem">
+    <input type="text" name="digite" id="digite" placeholder="digite">
+    <input type="text" name="resultado" id="resultado" placeholder="digite">
+    <br><br><br>
+</div>
+    <br><br>
+    <button id="enviar">Enviar</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

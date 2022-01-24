@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font: 2rem ;
+}
+
+ body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp-KX0q3jGoJMk0IxKMR-ej8BcG-MeuzTcAg&usqp=CAU) ;
+   background-repeat: no-repeat;
+   width: 100%;
+   position: center;
+   background-color: orangered;
+ }
+
+ .container{
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 300px ;
+  height: 700px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+  
+
+
+ }
+
+ h1{
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   padding-left: 30px;
+   padding-top: 30px;
+
+ }
+
+ .metodo{
+  border: yellow;
+
+ }
+
+ .campo1{
+  padding-left: 50px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+  height: 100px;
+  resize: none;
+ }
+
+ .titulo{
+  padding-left: 50px;
+  margin-left: 52px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  padding-left: 10px;
+ }
+
+ #enviar:hover{
+     background-color: #7e459b;
+ }
+
+ #enviar{
+     border-radius: 10px;
+     height: 30px;
+     width: 100px ;
+     margin-top: 5px;
+     margin-left: 85px;
+     color: white;
+     background-color: rgb(255, 0, 128);
+     border-color: white;
+     cursor: pointer;
+ }
+
+ .mensagem{
+    padding-left: 50px;
+    margin-left: 30px;
+    border: white;
+    border-radius: 10px;
+    height: 25px;
+    background-color: tomato;
+    cursor: pointer;
+    color: white;
+
+
+
+ }
